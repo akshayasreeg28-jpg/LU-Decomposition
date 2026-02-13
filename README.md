@@ -31,6 +31,12 @@ Finally, obtain 𝐴=𝐿𝑈
 ```
 /*
 Program to find the L and U matrix.
+import numpy as np
+from scipy.linalg import lu
+A=np.array(eval(input()))
+P,L,U=lu(A)
+print(L)
+print(U)
 Developed by: Akshaya Sree G
 RegisterNumber: 212225230011
 */
@@ -39,6 +45,14 @@ RegisterNumber: 212225230011
 ```
 /*
 Program to find the LU Decomposition of a matrix.
+import numpy as np
+from scipy.linalg import lu_factor,lu_solve
+A=np.array(eval(input()))
+b=np.array(eval(input()))
+lu,piv=lu_factor(A)
+X=lu_solve((lu,piv),b)
+print(X)
+
 Developed by: Akshaya Sree G
 RegisterNumber:212225230011 
 */
@@ -47,9 +61,10 @@ RegisterNumber:212225230011
 ## Output:
 ![lu decomposition]()
 L and U matrix
-<img width="1152" height="843" alt="image" src="https://github.com/user-attachments/assets/c1803c9e-a138-44a5-9106-bb664dc16596" />
+<img width="1205" height="555" alt="image" src="https://github.com/user-attachments/assets/26baf515-2044-45d8-8402-62e111725447" />
 LU Decomposition of a matrix
-<img width="978" height="645" alt="Screenshot 2026-02-13 104641" src="https://github.com/user-attachments/assets/9ef1927b-cb23-440b-8f0d-1b3af17775e4" />
+<img width="988" height="351" alt="image" src="https://github.com/user-attachments/assets/b756c468-8aeb-4709-9d49-2df7015f7fed" />
+
 
 
 
