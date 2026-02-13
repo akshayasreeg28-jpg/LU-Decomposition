@@ -57,12 +57,8 @@ Developed by: Akshaya Sree G
 RegisterNumber:212225230011 
 */
 ```
-
 ## Output:
-![lu decomposition]()
-L and U matrix
 <img width="1205" height="555" alt="image" src="https://github.com/user-attachments/assets/26baf515-2044-45d8-8402-62e111725447" />
-LU Decomposition of a matrix
 <img width="988" height="351" alt="image" src="https://github.com/user-attachments/assets/b756c468-8aeb-4709-9d49-2df7015f7fed" />
 
 
